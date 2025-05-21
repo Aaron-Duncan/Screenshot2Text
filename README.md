@@ -1,29 +1,28 @@
 # Screenshot2Text
 
-A free alternative to Text Sniper. Capture a screenshot and extract text to clipboard via built-in macOS Shorcuts app.
+Capture a screenshot and extract text to clipboard via built-in macOS Shorcuts app.
 
-GIF HERE
 
 ## Install
+- make sure you are using an admin account
+- Download the 'OCR.shortcut' file from this repo and double click to open in Shortcuts.
+- click add shorcut
+- click play button
+- error will say 'Could not run "Run shell Script", click show
+- click open preferences, set allow running script to checked, run it again
+- click allow on 'Allow "OCR" to run a shell script?'
+- now it works when you click run
 
-1. Download the `.shortcut` file from this repo and import it into the macOS Shortcuts app.
-![import](images/import.png)
-2. Double click on it to edit. Click the 'i' icon in the side menu then select the 'Add Keyboard Shortcut' option. Command + Shift + 2 is reccomended.
-3. Allow privacy requests to 'run shell script' and 'capture screen' if prompted.
-4. Check these settings are enabled:
+- click the 'i' icon in the side menu then select the 'Add Keyboard Shortcut' option. Command + Shift + 2 is reccomended.
+- exit the window and press Command + Shift + 2 to take screenshot
+- Allow privacy requests to 'run shell script' and 'capture screen' if prompted.
+- copy or command v to get text
    
-SCREENSHOTS
 
-6. **Troubleshooting:**
-   The tool works great with Chrome but may not behave as expected in some other apps. To ensure smooth operation, exit full-screen mode, click on the desktop background to switch to Finder, and then capture the desired text area.
 
-GIF Here
+**Troubleshooting:**
+The tool works great with Safari or Chrome but may not behave as expected in some other apps. To ensure smooth operation, exit full-screen mode, click on the desktop background so that "Finder" is the text in the top left of the menu bar, and then capture the desired text area.
 
-## DIY:
 
-1. Open the **Shortcuts** app on macOS. Click + to make new shorcut
-2. Drag and drop items from side menu as seen below. Don't forget to add "screencapture -ic" to the Run Shell Script action.
-![OCR Demo](images/drag&drop.png)
-3. Click the 'i' icon in the side menu then select the "Add Keyboard Shortcut" option. Command + Shift + 2 is reccomended. 
-![KeyboardShorcut](images/addshortcut.png)
+
 
